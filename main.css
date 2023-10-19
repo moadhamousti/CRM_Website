@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+
+
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Jost', sans-serif; */
+font-family: 'Open Sans', sans-serif;
+}
+
+
+.background_img_cont{
+    padding: 20px 120px;
+    background-image: url(./img/Image\(9\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    
+    display: flex;
+    justify-content: space-between;
+}
+header ul{
+    list-style: none;
+    display: flex;
+}
+header ul li {
+    margin: 15px;
+}
+header ul li a{
+    text-decoration: none;
+    color: #303030;
+font-family: Jost;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: 160%; /* 32px */
+text-transform: capitalize;
+}
+
+
+.nav_menu {
+    display: flex;
+}
+.nav_menu button a {
+    text-decoration: none; 
+    color: #FFF;
+font-family: Jost;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: 160%; 
+text-transform: capitalize;
+
+}
+
+.nav_menu button {
+    background-color: #303030; 
+    border: none; 
+    border-radius: 5px; 
+    padding: 12px 38px; 
+    cursor: pointer; 
+    height: 50px;
+    margin-top: 18px;
+    margin-left: 20px;
+}
+
+main{
+    padding: 50px 0;
+}
+
+main h1{
+    color: #303030;
+font-family: Jost;
+font-size: 45px;
+font-style: normal;
+font-weight: 600;
+line-height: 133.2%; /* 79.92px */
+text-transform: capitalize;
+padding-bottom: 10px;
+}
+
+
+main p{
+    color: #4E4E4E;
+font-family: Open Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; /* 40px */
+text-transform: capitalize;
+}
+main img{
+    position: relative;
+    top: 60px;
+    margin: 50px 0;
+    width: 70vw;
+    z-index: -1;
+}
+main .buttons_main{
+    display: flex;
+}
+.buttons_main a{
+    text-decoration: none;
+    margin: 5px ;
+    
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+.buttons_main a:first-child{
+    background-color:hsla(0, 0%, 19%, 1);
+    color: #fff;
+    display: flex;
+padding: 14px 39px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+}
+.buttons_main a:last-child{
+    background-color: #fff;
+    color: hsla(0, 0%, 19%, 1);
+    padding: 14px 39px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+}

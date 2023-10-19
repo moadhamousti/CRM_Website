@@ -1,0 +1,107 @@
+
+.head ul li a {
+    font-size: 24px; /* Set the icon size */
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease; /* Add a smooth transition effect */
+}
+
+.head ul li a:hover {
+    color: #4da3ff; /* Set the hover color to light blue */
+}
+ 
+
+
+footer{
+    background-color: #303030;
+    margin-top: 80px;
+    padding: 40px 230px;
+
+}
+footer .head{
+    display: flex;
+    justify-content: space-between;
+}
+footer .head ul{
+    list-style: none;
+    display: flex;
+}
+footer .head ul li{
+    margin-left: 10px;
+}
+
+footer .head ul li a{
+    text-decoration: none;
+    color: #fff;
+
+}
+footer .top-rows{
+    display: flex;
+    justify-content: space-evenly;
+}
+.top-rows img{
+    margin-top: 5px;
+}
+
+
+
+.footer .head ul li i{
+    font-size: 20px;
+}
+
+.top-rows ul{
+    color: #FFF;
+font-family: Jost;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 133.2%; /* 33.3px */
+text-transform: capitalize;
+}
+
+
+.top-rows ul li{
+    color: #FFF;
+font-family: Jost;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: capitalize;
+}
+
+footer .top-rows ul{
+    list-style: none;
+    
+    margin-top: 30px;
+}
+footer hr{
+    /* outline: none; */
+    /* height: 1px; */
+    color: #7e7e7e;
+}
+
+
+footer hr{
+    background: #4A4A4A;
+}
+
+
+
+
+footer .top-rows ul li a{
+    text-decoration: none;
+    color: hsla(0, 0%, 100%, 1);
+    margin-bottom: 20px;
+    font-size: 10px;
+}
+.Copyright{
+    text-align: center;
+    color: #FFF;
+font-family: Jost;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; /* 32px */
+text-transform: capitalize;
+}
